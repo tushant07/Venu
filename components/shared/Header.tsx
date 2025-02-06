@@ -12,12 +12,12 @@ const Header = () => {
         <Link href="/" className="w-36">
           <Image 
             src="/assets/images/logo.svg" width={128} height={38}
-            alt="Evently logo" 
+            alt="Venu logo" 
           />
         </Link>
 
         <SignedIn>
-          <nav className="md:flex-between hidden w-full max-w-xs">
+          <nav className="md:flex-between hidden w-full max-w-xs  ">
             <NavItems />
           </nav>
         </SignedIn>
